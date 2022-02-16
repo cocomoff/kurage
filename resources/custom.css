@@ -1,0 +1,31 @@
+:root {
+    --accent: tomato;
+    --font-size-name: 32px;
+    --font-size-h4: 20px;
+    --font-size-title: 24px;
+}
+
+nav a.current {
+    color: var(--accent) !important;
+    border-color: var(--accent);
+}
+
+body > header h1, h2 {
+    font-size: var(--font-size-name);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body > h1, h2, h3, h4 {
+    font-size: var(--font-size-h4);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body > header p {
+    font-size: var(--font-size-title);
+    max-width: 80rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1.1;
+}
