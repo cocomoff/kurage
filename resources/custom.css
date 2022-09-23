@@ -10,6 +10,10 @@ nav a.current {
     border-color: var(--accent);
 }
 
+body {
+    width: 100vw;
+}
+
 body > header h1, h2 {
     font-size: var(--font-size-name);
     margin-top: 0px;

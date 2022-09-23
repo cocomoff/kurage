@@ -7,6 +7,7 @@
     <title>Keisuke Otaki@Tokyo</title>
     <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
     <link rel="stylesheet" href="./resources/custom.css">
+    <link rel="stylesheet" href="./resources/tab.css">
 </head>
 
 <body>
@@ -26,21 +27,32 @@
             <mark>最終更新日: 2022年8月29日</mark>
         </p>
         <p>
-            こちらのページでは研究をカテゴリに分けてまとめています。<br />
+            こちらのページでは研究をカテゴリに分け、概要をまとめています。<br />
             （under construction）
         </p>
-        <h2>交通・社会システムを対象とした最適化技術に関する研究</h2>
-        <p>
-            <strong>概要</strong>
-            <ul>
-                <li>自動運転車両から構成される次世代社会システムを想定した最適化技法について研究しています。</li>
-                <li>モビリティサービスを対象とした数理最適化モデリング、アルゴリズム設計・開発・実装、機械学習/AI 技術の検証（PoC）、サービスデータの解析/コンサルティングなどを行っています。</li>
-            </ul>
-            <strong>実績</strong>
-            <ul>
-                <li>…</li>
-            </ul>
-        </p>
+        <div class="tab-wrap">
+            <input id="TAB-01" type="radio" name="TAB" class="tab-switch" checked="checked" />
+            <label class="tab-label" for="TAB-01">社会</label>
+            <div class="tab-content">
+                <h2>交通・社会システムを対象とした最適化技術に関する研究</h2>
+                <p>
+                    <strong>概要</strong>
+                    <ul>
+                        <li>自動運転車両から構成される次世代社会システムを想定した最適化技法について研究しています。</li>
+                        <li>モビリティサービスを対象とした数理最適化モデリング、アルゴリズム設計・開発・実装、機械学習/AI 技術の検証（PoC）、サービスデータの解析/コンサルティングなどを行っています。</li>
+                    </ul>
+                    <strong>実績</strong>
+                    <ul>
+                        <li>…</li>
+                    </ul>
+                </p>
+            </div>
+            <input id="TAB-02" type="radio" name="TAB" class="tab-switch" />
+            <label class="tab-label" for="TAB-02">ーーー</label>
+            <div class="tab-content">
+                Under construction
+            </div>
+        </div>
     </main>
 </body>
 

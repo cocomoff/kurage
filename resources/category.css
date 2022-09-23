@@ -1,0 +1,51 @@
+:root {
+    --font-size-paper: 18px;
+}
+
+ul.category {
+    line-height: 1.4em;
+    font-size: var(--font-size-paper);
+}
+
+ul.category > li.item {
+    display: block;
+    margin-bottom: 30px;
+}
+
+ul.category > li.item > .title {
+    font-style: italic;
+}
+
+ul.category > li.item > .place {
+    font-style: italic;
+}
+
+li.item > .number, .authors {
+    display: inline;
+}
+
+li.item > .authors > .myself {
+    text-decoration: underline;
+}
+
+li.item > #info {
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+li.item > #info > a {
+    text-decoration: none;
+}
+
+li.item > #info-inline {
+    display: inline;
+    padding-top: 5px;
+}
+
+li.item > #info > img, a > img {
+    height: 24px;
+}
+
+.category > .authors {
+    display: inline;
+}
